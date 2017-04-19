@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [ddos (v0.1.16)](https://github.com/rook2pawn/node-ddos) [![npm package](https://img.shields.io/npm/v/npmtest-ddos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ddos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ddos.svg)](https://travis-ci.org/npmtest/node-npmtest-ddos)",
+    "description": "#### test coverage for  [ddos (v0.1.16)](https://github.com/rook2pawn/node-ddos)  [![npm package](https://img.shields.io/npm/v/npmtest-ddos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ddos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ddos.svg)](https://travis-ci.org/npmtest/node-npmtest-ddos)",
     "devDependencies": {
         "ddos": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }

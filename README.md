@@ -1,4 +1,7 @@
-# test coverage for  [ddos (v0.1.16)](https://github.com/rook2pawn/node-ddos)  [![npm package](https://img.shields.io/npm/v/npmtest-ddos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ddos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ddos.svg)](https://travis-ci.org/npmtest/node-npmtest-ddos)
+# npmtest-ddos
+
+#### test coverage for  [ddos (v0.1.16)](https://github.com/rook2pawn/node-ddos)  [![npm package](https://img.shields.io/npm/v/npmtest-ddos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ddos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ddos.svg)](https://travis-ci.org/npmtest/node-npmtest-ddos)
+
 #### Configurable Denial-Of-Service prevention for http services
 
 [![NPM](https://nodei.co/npm/ddos.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ddos)
