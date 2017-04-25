@@ -1,6 +1,6 @@
 # npmtest-ddos
 
-#### test coverage for  [ddos (v0.1.16)](https://github.com/rook2pawn/node-ddos)  [![npm package](https://img.shields.io/npm/v/npmtest-ddos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ddos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ddos.svg)](https://travis-ci.org/npmtest/node-npmtest-ddos)
+#### basic test coverage for  [ddos (v0.1.16)](https://github.com/rook2pawn/node-ddos)  [![npm package](https://img.shields.io/npm/v/npmtest-ddos.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ddos) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ddos.svg)](https://travis-ci.org/npmtest/node-npmtest-ddos)
 
 #### Configurable Denial-Of-Service prevention for http services
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ddos/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ddos/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ddos/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ddos/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ddos/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ddos/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ddos/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ddos/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ddos/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ddos/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ddos/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ddos/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
     "scripts": {
         "test": "tape test/test-whitelist.js && tape test/test-post.js && tape test/test-express.js && mocha --harmony test/test-koa.js"
     },
-    "version": "0.1.16"
+    "version": "0.1.16",
+    "bin": {}
 }
 ```
 
